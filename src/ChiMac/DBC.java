@@ -13,7 +13,7 @@ public class DBC {
 			// 접속할 DB의 계정정보(차후 변경)
 			String user = "WUSJUSTDOIT";
 			String password = "1111";
-			
+			// 
 			try {
 				Class.forName("oracle.jdbc.driver.OracleDriver");
 				con = DriverManager.getConnection(url,user,password);
